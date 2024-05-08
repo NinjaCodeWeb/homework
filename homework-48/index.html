@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Обратная связь</title>
+</head>
+
+<body>
+	<div class="consultation">
+		<h2>Консультация</h2>
+		<P>Заполните форму, мы свяжимся в ближайщее время.</P>
+		<form>
+			<fieldset>
+				<label>Имя: <input type="text" placeholder="Иван"></label><br>
+				<label>Фамилия:<input type="text" placeholder="Фролов"></label><br>
+				<label>
+					Ваш город: 
+					<select name="city">
+						<option value="">--Выберите город</option>
+						<option value="moscow">Москва</option>
+						<option value="petersburg">Санкт-Петербург</option>
+						<option value="novosibirsk">Новосибирск</option>
+						<option value="khabarovsk">Хабаровск</option>
+						<option value="vladivostok">Владивосток</option>
+					</select>
+				</label>
+				<label>Email<input type="email" placeholder="ivanov@mail.ru"></label><br>
+				<label>Тел:<input type="tel" placeholder="+ 7 999 999 99 99"></label>
+				<textarea cols="30" rows="10" placeholder="Что вас беспокоит?"></textarea><br>
+				<button type="submit">Отправить</button>
+				<button type="reset">Очистить</button>
+			</fieldset>
+		</form>
+	</div>
+</body>
+
+</html>

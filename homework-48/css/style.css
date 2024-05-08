@@ -1,0 +1,24 @@
+.consultation {
+	border: 1px solid #000;
+	max-width: 400px;
+	padding: 10px;
+	background: #ecc6c6;
+	border-radius: 20px;
+	
+	margin: 30px auto;
+}
+
+input, textarea, button, select {
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+h2, p {
+	text-align: center;
+}
+
+button {
+	padding: 15px;
+	border-radius: 100px;
+	margin-bottom: 5px;
+}
